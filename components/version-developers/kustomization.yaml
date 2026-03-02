@@ -3,5 +3,5 @@ kind: Component
 
 images:
 - name: peterhubina/ambulance-ufe
-  newName: peterhubina/ambulance-ufe
-  newTag: latest
+  newName: peterhubina/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+  newTag: latest # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
