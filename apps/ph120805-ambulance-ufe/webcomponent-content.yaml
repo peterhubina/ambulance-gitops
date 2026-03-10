@@ -4,7 +4,10 @@ metadata:
   name: ph120805-ambulance-ufe-content
 spec:
   microFrontend: ph120805-ambulance-ufe
-  element: ph120805-ambulance-wl-list
+  element: ph120805-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /ph120805-ambulance-wl/
   displayRules:
     - allOf:
         - context-name: main-content
