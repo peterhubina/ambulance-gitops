@@ -7,7 +7,7 @@ spec:
   element: ph120805-ambulance-wl-app
   attributes:
     - name: api-base
-      value: http://localhost:30081/api
+      value: /ph120805-api
     - name: ambulance-id
       value: bobulova
   displayRules:
