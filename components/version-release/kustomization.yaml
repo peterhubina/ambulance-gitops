@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
-- name: <docker-id>/ambulance-ufe
-  newName: <docker-id>/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: peterhubina/ambulance-ufe
+  newName: peterhubina/ambulance-ufe
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: peterhubina/ambulance-wl-webapi
+  newName: peterhubina/ambulance-wl-webapi
+  newTag: 1.1.0
