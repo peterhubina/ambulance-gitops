@@ -11,3 +11,4 @@ resources:
 labels:
   - pairs:
       app.kubernetes.io/component: ph120805-ambulance-ufe
+      wac-fiit.github.io/component: frontend

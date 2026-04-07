@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: ph120805-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich ph120805"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Peter Hubina"
+  azureLink: "https://ph120805.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/peterhubina/ambulance-ufe"
+  backendRepoUrl: "https://github.com/peterhubina/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/peterhubina/ambulance-gitops"
