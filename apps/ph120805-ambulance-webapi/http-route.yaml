@@ -22,7 +22,7 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: ph120805-ambulance-webapi
+          name: peterhubina-ambulance-webapi
           port: 80
     - matches:
         - path:
@@ -46,5 +46,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: ph120805-ambulance-webapi
+          name: peterhubina-ambulance-webapi
           port: 80
