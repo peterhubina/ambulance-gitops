@@ -6,7 +6,7 @@ spec:
   title: "Zoznam čakajúcich ph120805"
   description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Peter Hubina"
-  azureLink: "https://ph120805.azurewebsites.net"
+  azureLink: "ambulance-ph-bed7hrfha6fscwhb.westeurope-01.azurewebsites.net"
   frontendRepoUrl: "https://github.com/peterhubina/ambulance-ufe"
   backendRepoUrl: "https://github.com/peterhubina/ambulance-webapi"
   gitopsRepoUrl: "https://github.com/peterhubina/ambulance-gitops"
